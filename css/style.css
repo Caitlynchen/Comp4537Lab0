@@ -1,0 +1,18 @@
+button {
+    width: 10em;
+    height: 5em;
+    margin: 5px;
+}
+
+#buttonContainer {
+    position: relative;
+    min-height: 300px;  
+    width: 100%;       
+    /* overflow-x: auto;    */
+    
+}
+#submit{
+    width: 3em;
+    height: 2em;
+    margin: 5px;
+}
