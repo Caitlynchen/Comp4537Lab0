@@ -1,3 +1,4 @@
+//COMPT4537 LAB0 caitlyn chen
 // Color.js functionality
 class Color {
     static getRandomColor() {
