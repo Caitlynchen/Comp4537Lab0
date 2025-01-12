@@ -1,4 +1,7 @@
-//COMPT4537 LAB0 caitlyn chen
+/* COMPT4537 LAB0 caitlyn chen
+ * using chatGPT to correct syntax,get the idea of function getRandomColor, 
+ * shuffleArray and makeMove, and help to organize the classes
+ */
 // Color.js functionality
 class Color {
     static getRandomColor() {
@@ -75,7 +78,7 @@ class Game {
     static checkOrder(clickedButton) {
         if (!Game.endGame) {
             if (clickedButton.order === Game.orderCount + 1) {
-                clickedButton.btn.textContent = clickedButton.order; // Reveal the number
+                clickedButton.btn.textContent = clickedButton.order; 
                 Game.orderCount++;
                 if (Game.orderCount === Game.totalBtns) {
                     alert("Excellent memory!");
@@ -98,7 +101,7 @@ class Game {
         const intervalId = setInterval(() =>{
             if (counter < btns.length) {
                 Game.shuffleArray(tmp);
-                counter++;  // Increment the number
+                counter++;  
                 //r g b y
                 for (let i = 0; i < btns.length; i++) {
                     // 0*110  --> 3*110
